@@ -1,10 +1,9 @@
 {
-    "version": 2,
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/netflix.html"
-      }
-    ]
+  "version": 2,
+  "routes": [
+    { "src": "/(.*)", "dest": "/netflix.html" }
+  ],
+  "static": {
+    "directory": "./"
   }
-  
+}
